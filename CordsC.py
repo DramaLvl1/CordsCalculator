@@ -16,8 +16,10 @@ def sepcords(cord1, cord2):
   
   x = int(ncord1[0]) - int(ncord2[0])
   y = int(ncord2[1]) - int(ncord2[1])
-  result = x + y
+  result = x**2 + y**2
   
   print("Distance:" + str(result**0.5))
+  print("first cord:" + cord1)
+  print("second cord:" + cord2)
   
 sepcords(firstcord, secondcord)
